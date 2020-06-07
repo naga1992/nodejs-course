@@ -2,4 +2,8 @@ console.log('utils.js')
 
  const name = 'naga'
 
- module.exports = name
+const add = (x,y) => {
+  return x+y
+}
+
+ module.exports = add
