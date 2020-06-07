@@ -10,4 +10,4 @@
 // console.log(validator.isURL("abc"))
 
 const chalk = require('chalk')
-console.log(chalk.blue('Sucess!'))
+console.log(chalk.blue.inverse.bold('Sucess!'))
