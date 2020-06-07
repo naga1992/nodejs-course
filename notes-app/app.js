@@ -7,4 +7,4 @@ const getNotes = require('./notes')
 
 console.log(getNotes())
 
-console.log(validator.isEmail("abc@test.com"))
+console.log(validator.isURL("abc"))
